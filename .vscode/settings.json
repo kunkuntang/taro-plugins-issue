@@ -1,0 +1,9 @@
+{
+    "conventionalCommits.scopes": [
+        "system",
+        "custompage"
+    ],
+    "editor.tabSize": 2,
+    "fileheader.LastModifiedBy": "包文果",
+    "fileheader.Author": "包文果"
+}

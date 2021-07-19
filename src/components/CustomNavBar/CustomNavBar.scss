@@ -1,0 +1,17 @@
+@import '../../theme.scss';
+
+.nav-fixed-bar {
+  background: $lk-theme-color;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+}
+
+.nav-fixed-bar-content {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  color: #fff;
+}

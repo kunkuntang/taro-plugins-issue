@@ -1,0 +1,36 @@
+@import "~taro-ui/dist/style/index.scss";
+
+@import "./theme.scss";
+
+.page-container {
+  // padding-top: 202px;
+  padding-left: 32px;
+  padding-right: 32px;
+  background-color: $lk-theme-color;
+}
+
+// 去掉滚动条
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+// 多行文本组件
+.multiLine-text .at-textarea {
+  border: none !important;
+  padding-left: 0 !important;
+  padding-top: 0 !important;
+}
+
+
+.dateTime-choice .picker,.dateTime-choice .at-list {
+  width: 100% !important;
+}
+
+// 单行省略
+.single-line-ellipsis {
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
